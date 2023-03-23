@@ -1,0 +1,286 @@
+<!-- D. Crea un repositorio github. Al terminarlo también tendrás que publicalo también en Github Pages. Crea
+una web que use la librería PicoCSS que al menos tenga:
+un menú
+un párrafo y dentro de él las etiquetas: mark, borrado, insertado y abreviatura
+un blockquote
+3 acordones: el primero con un párrafo, el segundo con una lista desordenada de 5 elementos y el
+tercero una tabla de 5x5
+Una sección como la siguiente imagen. A dos columnas:
+la primera columna con imagen, el texto de la imagen y un párrafo
+la segunda columna con un párrafo extenso -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pico.min.css">
+</head>
+
+<body class="container">
+
+    <nav>
+        <ul>
+            <li><strong>Elige tu enlace</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Enlace 1</a></li>
+            <li><a href="#">Enlace 2</a></li>
+            <li><a href="#" role="button">Button</a></li>
+        </ul>
+    </nav>
+
+
+    <p> <abbr title="Lord Em">Lorem</abbr> <mark> ipsum </mark> <del> dolor </del> <ins>sit amet consectetur</ins>
+        adipisicing elit. Maiores placeat similique temporibus nostrum minima
+        dolorum id dignijjjjjjssimos odit quam modi? Cupiditate dolor, iste consectetur adipisci tenetur debitis laudantium
+        voluptate placeat earum aut, atque ipsa u56uii55idolorem rerum ducimus eaque soluta? Delectus ex quibusdam, voluptatum
+        laboriosam eaque esse quod tempora! Temporibus, minus?</p>
+
+    <blockquote>Lorem del Lorem</blockquote>
+
+    <details>
+        <summary>Accordion 1</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reprehenderit eligendi itaque ex sit
+            obcaecati minima ad facere repudiandae qui quos architecto, earum, fugit inventore doloribus aperiam nobis
+            dolorum temporibus!</p>
+    </details>
+
+    <details open>
+        <summary>Accordion 2</summary>
+        <ul>
+            <li>...</li>
+            <li>...</li>
+            <li>...</li>
+            <li>...</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Accordion 3</summary>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Heading</th>
+                    <th scope="col">Heading</th>
+                    <th scope="col">Heading</th>
+                    <th scope="col">Heading</th>
+                    <th scope="col">Heading</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                    <td>Cell</td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
+
+    <div class="grid">
+        <div><img src="img/Encuentrame.jpg" alt="" width="200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tenetur unde vel ullam placeat voluptatum
+                beatae amet tempora voluptas pariatur asperiores suscipit sit reprehenderit veritatis in nesciunt
+                laborum,
+                ad corrupti.</p>
+        </div>
+
+        <div class="">
+            <p><b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore alias natus perferendis repellat
+                    quia non
+                    atque iste possimus vel, neque accusamus odio labore laborum commodi nihil perspiciatis numquam
+                    doloribus
+                    eum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, at maxime! Sed perferendis
+                    blanditiis tenetur nulla quia totam eos aperiam non autem, temporibus illum eligendi aut quisquam
+                    nesciunt itaque maiores commodi quos? Quam facere ab nobis est in accusantium, quisquam aut qui!
+                    Quisquam nisi nihil quia, saepe ex perferendis similique? Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Distinctio nisi ipsa praesentium ullam deserunt neque inventore eius, sed, nobis
+                    dolor dolorum perspiciatis quidem ducimus quasi quam voluptates saepe alias! Quas placeat dolor vel
+                    esse tempora dolorum iusto quo iste dolores odit reiciendis assumenda nobis, voluptate delectus
+                    vitae officiis dicta inventore. Laborum aspernatur animi id ut temporibus similique rerum ea?
+                    Repellendus veniam cum exercitationem laborum saepe. Consequuntur voluptatibus nostrum minima quis
+                    vel, ex voluptate aliquam similique id facere consequatur ea ipsam magnam est voluptatum labore.
+                    Dolorum, provident. Nihil optio doloribus ratione debitis assumenda, quaerat asperiores! Impedit
+                    quod earum consectetur quibusdam atque.</b></p>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div><img src="img/prismatierra.jpg" alt="" width="200">
+            <figcaption></figcaption>Eso lo hago con una mano
+        </div>
+        <div><img src="img/disaster.jpg" alt="" width="200">
+            <figcaption>No llames a los bomberos, ya llame yo</figcaption>
+        </div>
+        <div><img src="img/fresas.png" alt="" width="200">
+            <figcaption>Fresas no, gracias, soy tripofobico</figcaption>
+        </div>
+    </div>
+
+
+    <div class="grid">
+        <div><img src="img/prismatierra.jpg" alt="" width="200">
+            <figcaption>Pero hoy no, que tengo tunel carpiano</figcaption>
+        </div>
+        <div><img src="img/disaster.jpg" alt="" width="200">
+            <figcaption>La culpa la tiene el cambio climatico</figcaption>
+        </div>
+        <div><img src="img/fresas.png" alt="" width="200">
+            <figcaption>Yo no toco esos tomates de Hacendado</figcaption>
+        </div>
+    </div>
+
+
+    <form>
+
+        <!-- Grid -->
+        <div class="grid">
+
+            <!-- Markup example 1: input is inside label -->
+            <label for="firstname">
+                Nombre:
+                <input type="text" id="firstname" name="firstname" placeholder="" required>
+            </label>
+
+            <label for="lastname">
+                Apellidos:
+                <input type="text" id="lastname" name="lastname" placeholder="" required>
+            </label>
+        </div>
+        <div class="grid">
+            <label for="contact">
+                Telefono:
+                <input type="text" id="firstname" name="firstname" placeholder="" required>
+            </label>
+            <label for="user">
+                Usuario:
+                <input type="text" id="firstname" name="firstname" placeholder="" required>
+            </label>
+            <label for="email">
+                Email:
+                <input type="text" id="firstname" name="firstname" placeholder="" required>
+            </label>
+        </div>
+
+
+        <div class="grid">
+            <!-- Search -->
+            <input type="search" id="search" name="search" placeholder="Search">
+
+
+
+            <!-- Select -->
+            <label for="Permission"></label>
+            <select id="Permission" required>
+                <option value="" selected>Elegir Permisos</option>
+                <option>Administrador</option>
+                <option>Usuario</option>
+                <option>Invitado</option>
+            </select>
+        </div>
+
+
+        <div class="grid">
+            <fieldset>
+                <legend>Size</legend>
+                <label for="small">
+                    <input type="radio" id="small" name="size" value="small" checked>
+                    Small
+                </label>
+                <label for="medium">
+                    <input type="radio" id="medium" name="size" value="medium">
+                    Medium
+                </label>
+                <label for="large">
+                    <input type="radio" id="large" name="size" value="large">
+                    Large
+                </label>
+                <label for="extralarge">
+                    <input type="radio" id="extralarge" name="size" value="extralarge" disabled>
+                    Extra Large
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms">
+                    I agree to the Terms and Conditions
+                </label>
+                <label for="terms_sharing">
+                    <input type="checkbox" id="terms_sharing" name="terms_sharing">
+                    I agree to the destruction of the world
+                </label>
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" checked>
+                    I agree to sell my soul
+                </label>
+                <label for="terms_sharing">
+                    <input type="checkbox" id="terms_sharing" name="terms_sharing" disabled checked value="readonly">
+                    I agree to share my information with partners
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label for="switch">
+                    <input type="checkbox" id="switch" name="switch" role="switch">
+                    Publish on my profile
+                </label>
+                <label for="switch_disabled">
+                    <input type="checkbox" id="switch_disabled" name="switch_disabled" role="switch" disabled checked>
+                    User must change password at next logon
+                </label>
+            </fieldset>
+        </div>
+
+
+    <div class="grid">
+            <!-- Button -->
+            <button type="reset" class="secondary">Limpiar</button>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>
